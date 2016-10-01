@@ -1,0 +1,162 @@
+body{
+    font-family: serif;
+}
+.header{
+    margin: 15px;
+}
+h1{
+    font-weight: 600;
+    color: #344a71;
+    font-size: 77px;
+}
+/*//nav-bar*/
+.navbar-collapse {
+    margin-top: 20px;
+    border-top: 2px solid #344a71;
+    border-bottom: 2px solid #344a71;
+}
+.navbar-nav>li>a {
+    font-size: 23px;
+    margin-left: 30px;
+    color: #344a71;
+    text-decoration: underline;
+}
+.navbar-nav>li>a:hover {
+    color: white;
+    background: #344a71;
+    text-decoration: underline;
+}
+/*//container*/
+.container{
+    width: 100%;
+    padding-right: 0px;
+     padding-left: 0px;
+     margin-right: 0px;
+     margin-left: 0px;
+}
+#childImg{
+    float: left;
+}
+.headChild{
+    float: left;
+    font-size: 20px;
+    margin-top: 12px;
+    margin-left: 10px;
+    color: #344a71;
+}
+.socNet{
+    width:30px;
+    height:30px;
+    margin: 1%;
+}
+.col-md-7{
+    margin-top: 15%;
+}
+.textMain{
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    float: right;
+}
+.mainImg{
+    background-image: url("img/Betz.jpg");
+    background-size: cover;
+    height: 465px;
+    width: 90%;
+    margin: auto;
+}
+.jumbotron{
+    background-image: url("img/image001.png");
+    background-size: cover;
+    height: 300px;
+    margin-top: 3%;
+}
+#textJumb{
+    color: #344a71;
+    font-size: 30px;
+}
+.imgMiniMenu{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 15%;
+}
+.miniMenu{
+    height: 220px;
+}
+.HrCont{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 2px solid #344a71;
+}
+button{
+    position: relative;
+    z-index: 2;
+    margin-top: 22%;
+    margin-left: 35%;
+    color: #344a71;
+    background-color: #fff;
+    border-color: #ccc;
+    opacity: 0.7;
+}
+.btn-default:hover {
+    color: white;
+    background-color: #344a71;
+    opacity: 1;
+    border-color: #344a71;
+}
+/*//footer*/
+.footer{
+    margin-top: 8%;
+    background: #0f1623;
+    color: white;
+    height: 300px;
+}
+.footer .col-md-4{
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: 1%;
+}
+.footMarg{
+    margin-top: 11%;
+    font-size: 18px;
+}
+.row {
+     margin-right: 0px;
+     margin-left: 0px;
+}
+.logoImg{
+        margin-left: 40%;
+        margin-top: 15%;
+}
+.col-md-8{
+    padding-left: 0px;
+}
+.footImg{
+    margin-top:20px;
+}
+.footText{
+    font-size:9px;
+}
+#textFirstFoot{
+    font-size: 17px;
+}
+.footer a{
+    color: white;
+    font-size: 16px;
+}
+.footer .col-md-5{
+    padding-left: 0px;
+}
+h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 2px solid #eee;
+}
