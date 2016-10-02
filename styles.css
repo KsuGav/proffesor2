@@ -66,9 +66,10 @@ h1{
     margin: auto;
 }
 .jumbotron{
-    background-image: url("img/image001.png");
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-image: url(img/image001.png);
     background-size: cover;
-    height: 300px;
     margin-top: 3%;
 }
 #textJumb{
@@ -114,13 +115,13 @@ button{
     color: white;
     height: 300px;
 }
-.footer .col-md-4{
+.footer .column{
     padding-left: 3%;
     padding-right: 3%;
     margin-top: 1%;
 }
 .footMarg{
-    margin-top: 11%;
+    margin-top: 8%;
     font-size: 18px;
 }
 .row {
@@ -129,7 +130,7 @@ button{
 }
 .logoImg{
         margin-left: 40%;
-        margin-top: 15%;
+        margin-top: 13%;
 }
 .col-md-8{
     padding-left: 0px;
@@ -141,14 +142,15 @@ button{
     font-size:9px;
 }
 #textFirstFoot{
-    font-size: 17px;
+    font-size: 18px;
 }
 .footer a{
     color: white;
-    font-size: 16px;
+    font-size: 18px;
 }
-.footer .col-md-5{
+.footer .footMenu{
     padding-left: 0px;
+    padding-right: 0px;
 }
 h4{
     font-size: 20px;
